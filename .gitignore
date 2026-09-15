@@ -1,0 +1,5 @@
+node_modules/
+*.o
+*.out
+a.out
+o
