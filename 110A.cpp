@@ -4,10 +4,11 @@ using namespace std;
 int main(){
     long long n;
     cin >> n;
+    int count = 0;
+
     
     while(n > 0){
         int lastD = n % 10;
-        int count = 0;
         
         if(lastD == 4 || lastD == 7){
             count++;
@@ -16,6 +17,7 @@ int main(){
     }
     if(count == 4 || count == 7){
         cout << "YES\n"; 
+        return 0;
     }
     cout << "NO\n";
 }
